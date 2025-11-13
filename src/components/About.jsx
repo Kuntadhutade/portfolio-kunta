@@ -36,7 +36,7 @@ function About() {
             </p>
             <a
               href="#more"
-              className="btn mt-3"
+              className="btn-glow mt-3"
               style={{
                 backgroundColor: "#00ffff",
                 color: "#121212",
