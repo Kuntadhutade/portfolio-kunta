@@ -18,7 +18,7 @@ const Skills = () => {
         <div className="row g-4 justify-content-center">
           {skillData.map((skill, index) => (
             <div className="col-md-4 col-lg-3" key={index}>
-              <div className="card skill-card text-center bg-dark border-0 shadow-sm">
+              <div className="card skill-card text-center bg-dark border-0 ">
                 <div className="card-body">
                   <i
                     className={`bi ${skill.icon} fs-1 ${skill.color}`}
