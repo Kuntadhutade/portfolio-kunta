@@ -1,0 +1,274 @@
+
+
+
+body {
+  scroll-behavior: smooth;
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.text-aqua {
+  color: #00ffff;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #00ffff !important;
+  transition: 0.3s;
+}
+
+
+.container a {
+  color: #00ffff;
+  padding: 10px;
+  
+
+}
+.container a:hover{
+  color: #0ef;
+  background: #081b29;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #081b29;
+}
+
+
+
+
+
+
+
+
+.about-text{
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ddd;
+  text-align: justify;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+strong {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+ 
+
+
+
+.glow-img {
+  width: 250px;          
+  height: 250px;         
+  object-fit: cover;    
+  object-position: top;  
+  border-radius: 50%;   
+  box-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff, 0 0 45px #00f7ff;
+    animation: glow 2s infinite alternate;
+    transition: transform 0.3s ease;
+}
+
+.glow-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+}
+
+
+
+
+.animate-heading {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.about-img-wrapper {
+  padding: 10px;
+  background: linear-gradient(135deg, #00ffff, #005757);
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 20px rgb(0, 183, 255), 0 0 30px aqua, 0 0 40px aqua;
+}
+
+.about-img {
+  border: 5px solid #1e1e1e;
+  width: 250px;          
+  height: 250px;         
+  object-fit: cover;     
+  object-position: top;  
+  border-radius: 50%;    
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+  animation: glow 2s infinite alternate;
+    transition: transform 0.3s ease;
+}
+
+.about-img {
+  max-width: 300px;
+  box-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff, 0 0 45px #00f7ff;
+  animation: glow 2s infinite alternate;
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 30px #00f7ff;
+  }
+  to {
+    box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+  }
+}
+
+
+.btn-glow {
+ padding: 10px 25px;
+  border: 2p solid aqua;
+  background-color: transparent;
+  color: aqua;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px aqua;
+   
+ 
+}
+
+.btn-glow:hover {
+ 
+   background: #fff;
+  color: #000;
+  box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff;
+ 
+}
+
+
+ 
+
+
+.skill-card {
+  background-color: #1e1e1e;
+  border: none;
+  transition: transform 0.3s, background-color 0.3s;
+  color: white;
+  border-radius: 12px;
+}
+
+.skill-card:hover {
+  background-color: #00ffff10; /* Light aqua tint */
+  transform: translateY(-8px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+
+
+
+
+
+.text-aqua {
+  color: #00ffff;
+}
+
+
+.project-card {
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.project-card img {
+  max-height: 180px;
+  object-fit: cover;
+}
+
+
+
+
+.text-aqua {
+  color: #00ffff;
+}
+
+#contact input,
+#contact textarea {
+  background-color: #2c2c2c;
+  color: white;
+  border: 1px solid #00ffff33;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #ccc;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #00ffff;
+  box-shadow: none;
+}
+
+
+
+ 
+
+ .footer-section {
+  background-color: #1c1c1c;
+}
+
+
+
+
+.social-icons .icon {
+  
+  font-size: 24px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.4s ease;
+  
+  text-decoration: none;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+
+ .social-icons .whatsapp-icon{
+  
+ 
+  color: white;
+  background-color:#25D366;
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons .gmail-icon{
+  
+  color: #D44638;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+ .social-icons .linkedin-icon{
+  color: rgb(21, 111, 214);
+  background-color: white;
+  
+  width: 50px;
+  height: 50px;
+
+}
+
+.social-icons .github-icon{
+  color: purple;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
