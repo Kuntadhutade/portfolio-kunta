@@ -1,9 +1,6 @@
 
 
 import React from "react";
-
-// Image imports (import करणे गरजेचे आहे)
-// import portfolioImg from "../assets/portfolio.png";
 import movieAppImg from "../assets/imdb-movie-app-new.png";
 import bookStoreImg from "../assets/sell-book.png";
 
